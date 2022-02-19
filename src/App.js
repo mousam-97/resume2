@@ -2,11 +2,10 @@ import Topbar from "./components/topbar/Topbar";
 import Intro from "./components/intro/Intro";
 import Portfolio from "./components/portfolio/Portfolio";
 import Works from "./components/works/Works";
-import Contact from "./components/contact/Contact";
 import "./app.scss";
 import { useState } from "react";
 import Menu from "./components/menu/Menu";
-import Experience from "./components/testimonials/Experience";
+import Experience from "./components/experience/Experience";
 import Skills from "./components/skills/Skills";
 
 function App() {

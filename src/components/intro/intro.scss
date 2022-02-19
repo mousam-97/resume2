@@ -39,7 +39,9 @@
     flex: 0.5;
     position: relative;
 
-   
+    @include mobile {
+      flex:1;
+    }
 
     .wrapper {
       width: 100%;
