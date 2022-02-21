@@ -8,6 +8,10 @@
 
   h1 {
     font-size: 50px;
+
+    @include mobile {
+      font-size: 30px;
+    }
   }
 
   .container {
@@ -34,7 +38,7 @@
       @include mobile {
         width: 230px;
         margin: 10px;
-        height: 150px;
+        height: 100px;
       }
 
       h3 {

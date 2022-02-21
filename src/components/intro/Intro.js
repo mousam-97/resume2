@@ -28,6 +28,7 @@ function Intro() {
           <h3>
             <span ref={textRef}></span>
           </h3>
+          
         </div>
         <a href="#skills">
           <ExpandMoreIcon className="logo" />

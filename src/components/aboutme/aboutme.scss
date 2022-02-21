@@ -1,0 +1,129 @@
+@import "../../global.scss";
+
+.aboutme {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  // justify-content: center;
+
+  h1 {
+    font-size: 50px;
+    // margin: 30px;
+    overflow: hidden;
+
+    @include mobile {
+      font-size: 30px;
+    }
+  }
+
+  .slider {
+    height: 500px;
+    // width: 90%;
+    display: flex;
+    margin: 30px;
+    // position: absolute;
+    // left: 0;
+    overflow: hidden;
+
+    @include mobile {
+      height: 350px;
+    }
+
+    .container {
+      // width: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+
+      .item {
+        // width: 800px;
+        height: 100%;
+        background-color: white;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        @include mobile {
+          width: 300px;
+        }
+
+        .left {
+          flex: 4;
+          height: 100%;
+          background-color: #15023a;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          overflow: hidden;
+        }
+        .right {
+          flex: 8;
+          height: 100%;
+          background-color: #f1f0f0ce;
+          overflow: hidden;
+
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          h2 {
+            font-size: 25px;
+            padding: 10px;
+            margin: 10px;
+            color: #15023a;
+            overflow: hidden;
+
+            @include mobile {
+              font-size: 10px;
+              margin: 1px;
+              padding: 2px;
+            }
+          }
+
+          ul {
+            overflow: hidden;
+            li {
+              font-size: 25px;
+              padding: 8px;
+              margin: 5px;
+              overflow: hidden;
+
+              @include mobile {
+                font-size: 10px;
+                // padding: 1px;
+              }
+            }
+          }
+
+          button {
+            background-color: #6132be;
+            color: white;
+            width: 200px;
+            height: 80px;
+            border-radius: 20px;
+            font-size: 20px;
+            font-weight: 600;
+            margin: 5px;
+            overflow: hidden;
+          }
+
+          @include mobile {
+            button {
+              width: 100px;
+              height: 40px;
+              font-size: 8px;
+            }
+          }
+
+          button:hover {
+            background-color: rgb(17, 128, 180);
+          }
+        }
+      }
+    }
+  }
+}

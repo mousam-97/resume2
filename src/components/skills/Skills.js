@@ -10,7 +10,7 @@ function Skills() {
       <div className="container">
         <div className="item">
           <h3>Datastructures and Algorithms</h3>
-          <ProgressBar animated now={82} />
+          <ProgressBar animated now={82} />          
         </div>
         <div className="item">
           <h3>React</h3>

@@ -14,17 +14,16 @@ function Portfolio() {
               <h3>
                 Ecommerce-App
               </h3>
-              
+
             </div>
           </a>
 
         </Fade>
-
         <Fade right>
-          <a href="https://mousam-97.github.io/Simon-Game/" rel="noopener noreferrer" target="_blank" >
+          <a href="https://notes-pro.netlify.app/" rel="noopener noreferrer" target="_blank" >
             <div className="item">
-              <img src="assets/Simon-Game.PNG" alt="project2" />
-              <h3>Simon Game </h3>
+              <img src="assets/notespro.PNG" alt="project2" />
+              <h3>Notes-Pro: A speech-to-text note taking app</h3>
             </div>
           </a>
         </Fade>
@@ -37,10 +36,10 @@ function Portfolio() {
           </a>
         </Fade>
         <Fade right>
-          <a href="https://afternoon-escarpment-45003.herokuapp.com/" rel="noopener noreferrer" target="_blank" >
+          <a href="https://mousam-97.github.io/Simon-Game/" rel="noopener noreferrer" target="_blank" >
             <div className="item">
-              <img src="assets/toDo.PNG" alt="project4" />
-              <h3>To-Do App </h3>
+              <img src="assets/Simon-Game.PNG" alt="project4" />
+              <h3>Simon Game </h3>
             </div>
           </a>
         </Fade>
