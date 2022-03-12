@@ -5,7 +5,7 @@ import Fade from "react-reveal/Fade";
 function Works() {
   return (
     <div className="works" id="works">
-      <h1>Hobby(Sketches)</h1>
+      <h1>Hobby(Art)</h1>
       <div className="container">
         <Fade left>
           <div className="item">

@@ -20,18 +20,18 @@ function Portfolio() {
 
         </Fade>
         <Fade right>
-          <a href="https://notes-pro.netlify.app/" rel="noopener noreferrer" target="_blank" >
+          <a href="https://instagram-clone1.netlify.app/" rel="noopener noreferrer" target="_blank" >
             <div className="item">
-              <img src="assets/notespro.PNG" alt="project2" />
-              <h3>Notes-Pro: A speech-to-text note taking app</h3>
+              <img src="assets/instagram.PNG" alt="project2" />
+              <h3>Instagram Clone</h3>
             </div>
           </a>
         </Fade>
         <Fade left>
-          <a href="https://mousam-97.github.io/Drum-Kit/" rel="noopener noreferrer" target="_blank" >
+          <a href="https://notes-pro.netlify.app/" rel="noopener noreferrer" target="_blank" >
             <div className="item">
-              <img src="assets/drum-kit.PNG" alt="project3" />
-              <h3>Drum Kit </h3>
+              <img src="assets/notespro.PNG" alt="project2" />
+              <h3>Notes-Pro: A speech-to-text note taking app</h3>
             </div>
           </a>
         </Fade>

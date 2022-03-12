@@ -21,24 +21,29 @@ function Experience() {
                 <ul>
                   <li>
                     <ArrowRightIcon />
-                    Conducted Sarbanes-Oxley IT Risk assessment spread across different
+                    Conducted IT Risk assessment spread across different
                     platforms and technologies.
                   </li>
 
                   <li>
                     <ArrowRightIcon />
-                    Advised clients to improve their processes for various IT
-                    controls like Authentication, Role Based Access, Change
-                    Management etc.
+                    Conceptualized and implemented an innovative software
+                    project which could Automate the creation of validation
+                    sheets for clients that could help reduce the workload of an
+                    analyst by 2 hours per report.
                   </li>
 
                   <li>
                     <ArrowRightIcon />
-                    Responsible for conducting walkthrough meetings, designing and testing control procedures for various Fortune 500 clients including Starbucks, Nordstorm, Daktronics and Daikin.
+                    Responsible for conducting walkthrough meetings,
+                    designing and testing control procedures for Fortune 500
+                    companies.
                   </li>
                   <li>
                     <ArrowRightIcon />
-                    Built a software project which could automate the creation of Validation sheets for clients which helped reduce the workload of an analyst by 2 hours per report.
+                    Analyzed the robustness of GITC Controls in clients in the
+                    areas of Access Security, Change management, and Backup
+                    to address the risk of material misstatement.
                   </li>
                 </ul>
               </div>
