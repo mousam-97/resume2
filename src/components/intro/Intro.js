@@ -30,7 +30,7 @@ function Intro() {
           </h3>
           
         </div>
-        <a href="#skills">
+        <a href="#aboutme">
           <ExpandMoreIcon className="logo" />
         </a>
       </div>
