@@ -15,9 +15,10 @@ function Aboutme() {
                 <img src="/assets/aboutme.jpg" alt="my pic large" />
               </div>
               <div className="right">
-                <h2>Creative <strong>software engineer</strong> with strong design and problem-solving skills. Passionate about building great
-                  products. Innovative thinker with hands-on, well-developed skills in web development. Strong communication skills and an empathetic team player. Experienced working with
-                  international teams and Fortune 500 companies.</h2>
+                <h2>Creative software engineer with strong design and problem-solving skills. NIT Silchar graduate with
+                  experience working at Deloitte. Innovative thinker with hands-on, well-developed skills in Full-stack (MERN)
+                  web development. Passionate about building great products. Strong communication skills and an
+                  empathetic team player. Experienced working with international teams and Fortune 500 companies.</h2>
                 <ul>
                   <li>
                     <ArrowRightIcon />

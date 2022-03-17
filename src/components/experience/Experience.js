@@ -21,10 +21,10 @@ function Experience() {
                 <ul>
                   <li>
                     <ArrowRightIcon />
-                    Conducted IT Risk assessment spread across different
-                    platforms and technologies.
+                    Analyzed the robustness of GITC Controls in clients in the
+                    areas of Access Security, Change management, and Backup
+                    to address the risk of material misstatement.
                   </li>
-
                   <li>
                     <ArrowRightIcon />
                     Conceptualized and implemented an innovative software
@@ -39,12 +39,7 @@ function Experience() {
                     designing and testing control procedures for Fortune 500
                     companies.
                   </li>
-                  <li>
-                    <ArrowRightIcon />
-                    Analyzed the robustness of GITC Controls in clients in the
-                    areas of Access Security, Change management, and Backup
-                    to address the risk of material misstatement.
-                  </li>
+
                 </ul>
               </div>
             </div>
