@@ -19,32 +19,32 @@ function Skills() {
         </div>
         <div className="item">
           <h3>C++</h3>
-          <ProgressBar animated now={75} />
+          <ProgressBar animated now={89} />
 
         </div>
         <div className="item">
           <h3>Javascript</h3>
-          <ProgressBar animated now={72} />
+          <ProgressBar animated now={86} />
 
         </div>
         <div className="item">
           <h3>HTML</h3>
-          <ProgressBar animated now={70} />
+          <ProgressBar animated now={81} />
 
         </div>
         <div className="item">
           <h3>CSS</h3>
-          <ProgressBar animated now={70} />
+          <ProgressBar animated now={82} />
 
         </div>
         <div className="item">
           <h3>Node.js</h3>
-          <ProgressBar animated now={62} />
+          <ProgressBar animated now={78} />
 
         </div>
         <div className="item">
           <h3>MongoDB</h3>
-          <ProgressBar animated now={61} />
+          <ProgressBar animated now={70} />
 
         </div>
       </div>
