@@ -12,7 +12,7 @@ function Portfolio() {
             <div className="item">
               <img src="assets/Ecommerce-Store.png" alt="project1" />
               <h3>
-                Ecommerce-App
+                Amazon Clone
               </h3>
 
             </div>
@@ -36,10 +36,10 @@ function Portfolio() {
           </a>
         </Fade>
         <Fade right>
-          <a href="https://mousam-97.github.io/Simon-Game/" rel="noopener noreferrer" target="_blank" >
+          <a href="https://rick-and-morty-application.netlify.app/" rel="noopener noreferrer" target="_blank" >
             <div className="item">
-              <img src="assets/Simon-Game.PNG" alt="project4" />
-              <h3>Simon Game </h3>
+              <img src="assets/Rick and Morty.PNG" alt="project4" />
+              <h3>Rick and Morty characters </h3>
             </div>
           </a>
         </Fade>
