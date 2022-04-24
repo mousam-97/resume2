@@ -27,6 +27,10 @@
     font-weight: 300;
     width: 60%;
 
+    @include mobile {
+      font-size: 18px;
+    }
+
     li {
       margin-bottom: 25px;
 

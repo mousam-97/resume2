@@ -10,9 +10,11 @@
   h1 {
     font-size: 50px;
     // margin: 30px;
+    
 
     @include mobile {
       font-size: 30px;
+      overflow-y: hidden;
     }
   }
 
@@ -98,7 +100,7 @@
               padding: 8px;
 
               @include mobile {
-                font-size: 10px;
+                font-size: 7px;
                 // padding: 1px;
               }
             }

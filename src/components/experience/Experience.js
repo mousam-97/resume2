@@ -21,22 +21,23 @@ function Experience() {
                 <ul>
                   <li>
                     <ArrowRightIcon />
-                    Analyzed the robustness of GITC Controls in clients in the
-                    areas of Access Security, Change management, and Backup
-                    to address the risk of material misstatement.
+                    Conceptualized and implemented a software which could automate the creation of validation sheets for clients
+                    that could help reduce the workload of an analyst by 3 hours per report.
                   </li>
                   <li>
                     <ArrowRightIcon />
-                    Conceptualized and implemented an innovative software
-                    project which could Automate the creation of validation
-                    sheets for clients that could help reduce the workload of an
-                    analyst by 2 hours per report.
+                    Analyzed IT systems across many platforms and technologies for various Fortune 500 companies.
                   </li>
 
                   <li>
                     <ArrowRightIcon />
-                    Responsible for conducting walkthrough meetings,
-                    designing and testing control procedures for Fortune 500
+                    Analyzed the robustness of IT controls in clients in the areas of access security, change management, and
+                    backup to address the risk of material misstatement.
+                  </li>
+
+                  <li>
+                    <ArrowRightIcon />
+                    Worked with multiple global teams of more than 8 members and tested control procedures for various US
                     companies.
                   </li>
 

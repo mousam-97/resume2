@@ -85,7 +85,7 @@
             @include mobile {
               font-size: 10px;
               margin: 1px;
-              padding: 2px;
+              padding: 1px;
             }
 
             @include tablet {
@@ -100,7 +100,7 @@
             li {
               font-size: 25px;
               padding: 8px;
-              margin: 5px;
+              margin: 4px;
               overflow: hidden;
 
               @include mobile {
@@ -125,8 +125,9 @@
           @include mobile {
             button {
               width: 100px;
-              height: 40px;
+              height: 30px;
               font-size: 8px;
+              overflow-y: hidden;
             }
           }
 
