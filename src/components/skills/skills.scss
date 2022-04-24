@@ -13,6 +13,11 @@
       font-size: 30px;
       overflow-y: hidden;
     }
+
+    @include tablet {
+      font-size: 40px;
+      overflow-y: hidden;
+    }
   }
 
   .container {
@@ -21,9 +26,12 @@
     .item {
       padding: 2px;
 
-      .h3 {
+      h3 {
         font-weight: 800;
         @include mobile {
+          font-size: 20px;
+        }
+        @include tablet {
           font-size: 20px;
         }
       }
