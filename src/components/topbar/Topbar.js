@@ -21,19 +21,19 @@ function Topbar({ menuOpen, setMenuOpen }) {
             <EmailIcon className="icon" />
             <span>mousam.kalita.official@gmail.com</span>
           </div>
-          <div className="itemContainer">
+          {/* <div className="itemContainer">
             <a href="https://www.linkedin.com/in/mousam-kalita" rel="noopener noreferrer" target="_blank">
-              <LinkedInIcon className="icon"/>
+              <LinkedInIcon className="icon" />
               <span>Linkedin</span>
             </a>
 
           </div>
           <div className="itemContainer">
-          <a href="https://github.com/mousam-97" rel="noopener noreferrer" target="_blank">
+            <a href="https://github.com/mousam-97" rel="noopener noreferrer" target="_blank">
               <GitHubIcon className="icon" />
               <span>Github</span>
             </a>
-          </div>
+          </div> */}
         </div>
         <div className="right">
           <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
