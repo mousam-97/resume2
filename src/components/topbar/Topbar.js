@@ -2,8 +2,8 @@ import React from "react";
 import "./topbar.scss";
 // import EmailIcon from "@mui/icons-material/icons/Email";
 import EmailIcon from '@mui/icons-material/Email';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import GitHubIcon from '@mui/icons-material/GitHub';
+// import LinkedInIcon from '@mui/icons-material/LinkedIn';
+// import GitHubIcon from '@mui/icons-material/GitHub';
 
 function Topbar({ menuOpen, setMenuOpen }) {
   return (
