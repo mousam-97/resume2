@@ -8,6 +8,8 @@ import Menu from "./components/menu/Menu";
 import Experience from "./components/experience/Experience";
 import Skills from "./components/skills/Skills";
 import Aboutme from "./components/aboutme/Aboutme";
+import Reviews from "./components/reviews/Reviews";
+
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -18,6 +20,7 @@ function App() {
       <div className="sections">
         <Intro />
         <Aboutme />
+        <Reviews />
         <Skills />
         <Portfolio />
         <Experience />       
