@@ -11,7 +11,7 @@ function Intro() {
       showCursor: true,
       backDelay: 1500,
       backSpeed: 50,
-      strings: ["Software Engineer", "B.Tech - NIT Silchar", "Deloitte."],
+      strings: ["Software Engineer (Frontend)", "ex- Deloitte.", "Premagic", "B.Tech - NIT Silchar"],
     });
   }, []);
   return (
@@ -28,7 +28,7 @@ function Intro() {
           <h3>
             <span ref={textRef}></span>
           </h3>
-          
+
         </div>
         <a href="#aboutme">
           <ExpandMoreIcon className="logo" />

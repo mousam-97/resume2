@@ -2,8 +2,8 @@ import React from "react";
 import "./topbar.scss";
 // import EmailIcon from "@mui/icons-material/icons/Email";
 import EmailIcon from '@mui/icons-material/Email';
-// import LinkedInIcon from '@mui/icons-material/LinkedIn';
-// import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 function Topbar({ menuOpen, setMenuOpen }) {
   return (
@@ -21,7 +21,7 @@ function Topbar({ menuOpen, setMenuOpen }) {
             <EmailIcon className="icon" />
             <span>mousam.kalita.official@gmail.com</span>
           </div>
-          {/* <div className="itemContainer">
+          <div className="itemContainer">
             <a href="https://www.linkedin.com/in/mousam-kalita" rel="noopener noreferrer" target="_blank">
               <LinkedInIcon className="icon" />
               <span>Linkedin</span>
@@ -33,7 +33,7 @@ function Topbar({ menuOpen, setMenuOpen }) {
               <GitHubIcon className="icon" />
               <span>Github</span>
             </a>
-          </div> */}
+          </div>
         </div>
         <div className="right">
           <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>

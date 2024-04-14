@@ -1,6 +1,6 @@
 import React from "react";
 import "./experience.scss";
-import Fade from "react-reveal/Fade";
+// import Fade from "react-reveal/Fade";
 import ArrowRightIcon from "@material-ui/icons/ArrowRight";
 
 function Experience() {
@@ -9,7 +9,7 @@ function Experience() {
       <h1>Work Experience</h1>
       <div className="slider">
         <div className="container">
-          <Fade left>
+          {/* <Fade left> */}
             <div className="item">
               <div className="left">
                 <h1>
@@ -44,7 +44,7 @@ function Experience() {
                 </ul>
               </div>
             </div>
-          </Fade>
+          {/* </Fade> */}
         </div>
       </div>
     </div>

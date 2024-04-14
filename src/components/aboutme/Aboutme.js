@@ -1,6 +1,6 @@
 import React from "react";
 import "./aboutme.scss";
-import Fade from "react-reveal/Fade";
+// import Fade from "react-reveal/Fade";
 import ArrowRightIcon from "@material-ui/icons/ArrowRight";
 
 function Aboutme() {
@@ -9,7 +9,7 @@ function Aboutme() {
       <h1>About Me</h1>
       <div className="slider">
         <div className="container">
-          <Fade left>
+          {/* <Fade left> */}
             <div className="item">
               <div className="left">
                 <img src="/assets/aboutme.jpg" alt="my pic large" />
@@ -34,7 +34,7 @@ function Aboutme() {
                 </a>
               </div>
             </div>
-          </Fade>
+          {/* </Fade> */}
         </div>
       </div>
     </div>
