@@ -9,6 +9,7 @@ import Experience from "./components/experience/Experience";
 import Skills from "./components/skills/Skills";
 import Aboutme from "./components/aboutme/Aboutme";
 import Reviews from "./components/reviews/Reviews";
+import FeaturesShowcase from "./components/features-showcase/FeaturesShowcase";
 
 
 function App() {
@@ -20,10 +21,11 @@ function App() {
       <div className="sections">
         <Intro />
         <Aboutme />
-        <Reviews />
+        <FeaturesShowcase />
         <Skills />
+        <Reviews />
         <Portfolio />
-        <Experience />       
+        <Experience />
         <Works />
         {/* <Contact /> */}
       </div>
