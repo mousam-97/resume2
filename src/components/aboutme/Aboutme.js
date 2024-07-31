@@ -16,18 +16,13 @@ function Aboutme() {
 						</div>
 						<div className="right">
 							<p>
-								Software Engineer with over 3 years of experience, specializing in
-								Frontend engineering while maintaining a strong grasp of backend
-								technologies. I've had the privilege of collaborating with Fortune
-								500 companies during my tenure at Deloitte and subsequently in a
-								fast-paced product company (Premagic), where I worked closely with
-								the CTO and CPO to deliver impactful solutions. Notable clients
-								include Mercedes, Shell, Starbucks, Nordstrom, Amazon, G20,
-								Saasboomi, Gitex Dubai, JS Conf, React Conf, among others. I am
-								B.Tech graduate from NIT Silchar, an institute of national
-								importance.
+								Software Engineer (Frontend) with over 3.5 years of experience,
+								including collaboration with Fortune 500 companies and international
+								remote teams at Deloitte. Demonstrated success in a fast-paced
+								product company working directly with the CTO. A B.Tech graduate
+								from NIT Silchar, excelling at the intersection of art and code.
 							</p>
-							<ul>
+							{/* <ul>
 								<li>
 									<ArrowRightIcon />
 									Full Stack web development
@@ -37,7 +32,7 @@ function Aboutme() {
 									<ArrowRightIcon />
 									Data structures and Algorithms
 								</li>
-							</ul>
+							</ul> */}
 							<a href="/assets/mousam_cv.pdf" download="Mousam mousam_cv.pdf">
 								<button className="button">Get Resume</button>
 							</a>

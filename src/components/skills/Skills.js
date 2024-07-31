@@ -6,9 +6,6 @@ import CompaniesServed from "../companies-served/CompaniesServed";
 export default function Skills() {
 	return (
 		<div className="skills" id="skills">
-			<h1>Clients served</h1>
-			<CompaniesServed />
-			<div className="space-vertical" />
 			<h1>Tools and Technologies</h1>
 			<div className="container">
 				<code>
