@@ -1,7 +1,5 @@
 import React from "react";
 import "./skills.scss";
-import ProgressBar from "react-bootstrap/ProgressBar";
-import CompaniesServed from "../companies-served/CompaniesServed";
 
 export default function Skills() {
 	return (

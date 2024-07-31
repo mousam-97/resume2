@@ -7,7 +7,7 @@
 	background-color: white;
 
 	h1 {
-		margin-bottom: 50px;
+		margin-bottom: 30px;
 	}
 
 	.slider-container {
@@ -26,5 +26,17 @@
 				object-fit: contain;
 			}
 		}
+	}
+
+	.resume-button {
+		background-color: #6132be;
+		color: white;
+		width: 200px;
+		height: 80px;
+		border-radius: 20px;
+		font-size: 20px;
+		font-weight: 600;
+		overflow: hidden;
+		margin-top: 35px;
 	}
 }
