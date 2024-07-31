@@ -4,6 +4,29 @@ import "./companies-served.scss";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+function Stats() {
+	return (
+		<div className="stats">
+			<div className="clientrev">
+				<span>+500%</span>
+				<p>Company revenue</p>
+			</div>
+			<div className="adspend">
+				<span>+320</span>
+				<p>Features built</p>
+			</div>
+			<div className="maus">
+				<span>+50</span>
+				<p>teammates collaborated</p>
+			</div>
+			<div className="roi">
+				<span>99%</span>
+				<p>Client satisfaction</p>
+			</div>
+		</div>
+	);
+}
+
 export default function CompaniesServed() {
 	var settings = {
 		dots: false,
@@ -127,7 +150,7 @@ export default function CompaniesServed() {
 					</div>
 				</Slider>
 			</div>
-
+			<Stats />
 			{/* <a href="/assets/mousam_cv.pdf" download="Mousam mousam_cv.pdf">
 				<button className="resume-button">Get Resume</button>
 			</a> */}
