@@ -28,11 +28,12 @@ function Intro() {
           <h3>
             <span ref={textRef}></span>
           </h3>
-
+          {/* <CompaniesServed /> */}
         </div>
         <a href="#aboutme">
           <ExpandMoreIcon className="logo" />
         </a>
+      
       </div>
     </div>
   );
