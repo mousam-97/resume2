@@ -32,7 +32,7 @@ export default function CompaniesServed() {
 		dots: false,
 		// lazyLoad: true,
 		infinite: true,
-		slidesToShow: 6,
+		slidesToShow: 5,
 		slidesToScroll: 1,
 		autoplay: true,
 		speed: 2000,
@@ -68,9 +68,8 @@ export default function CompaniesServed() {
 		],
 	};
 	return (
-		<div className="companies-served" id="companies-served">
-			<h1>Clients Served</h1>
-
+		<div className="companies-served">
+			{/* <h6>Clients:</h6> */}
 			<div className="slider-container">
 				<Slider {...settings}>
 					<div className="image-container">
@@ -150,10 +149,6 @@ export default function CompaniesServed() {
 					</div>
 				</Slider>
 			</div>
-			<Stats />
-			{/* <a href="/assets/mousam_cv.pdf" download="Mousam mousam_cv.pdf">
-				<button className="resume-button">Get Resume</button>
-			</a> */}
 		</div>
 	);
 }

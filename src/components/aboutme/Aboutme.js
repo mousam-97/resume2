@@ -12,7 +12,7 @@ function Aboutme() {
 					{/* <Fade left> */}
 					<div className="item">
 						<div className="left">
-							<img src="/assets/frontend_boy.jpg" alt="my pic large" />
+							<img src="/assets/frontend3.jpg" alt="my pic large" />
 						</div>
 						<div className="right">
 							<p>
@@ -34,7 +34,7 @@ function Aboutme() {
 								</li>
 							</ul> */}
 							<a href="/assets/mousam_cv.pdf" download="Mousam mousam_cv.pdf">
-								<button className="button">Get Resume</button>
+								<button className="button">GET RESUME</button>
 							</a>
 						</div>
 					</div>

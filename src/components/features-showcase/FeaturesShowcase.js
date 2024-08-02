@@ -7,7 +7,7 @@ export default function FeaturesShowcase() {
 
     return (
 		<div className="features-showcase-container">
-			<h1>Sample features</h1>
+			<h1>Sample Features Built</h1>
 			<div className="scrollable-container">
 				<div className="feature">
 					<video controls autoPlay loop className="image">
