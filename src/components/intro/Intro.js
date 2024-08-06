@@ -15,8 +15,8 @@ function Intro() {
 			strings: [
 				"Software Engineer",
 				"Frontend",
-				"Deloitte",
-				"Premagic",
+				"Premagic, ex-Deloitte",
+				"Serving Global Brands",
 				"B.Tech - NIT Silchar",
 			],
 		});

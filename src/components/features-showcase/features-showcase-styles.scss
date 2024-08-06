@@ -1,63 +1,42 @@
-.features-showcase-container {
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+@import "../../global.scss";
 
-  .scrollable-container {
-    height: 85%;
-    width: 80%;
-    border-radius: 20px;
-    background-color: #f5f5f5;
-    overflow-y: scroll;
-    .feature {
-      height: 100%;
-      overflow: hidden;
-      .image {
+.feature-showcase {
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	// justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	h1 {
+		margin-bottom: 20px;
+	}
+	.container {
+		// max-height: 80%;
+		overflow-y: hidden;
+		.feature-image {
+			height: 400px;
+	
+			.image {
         width: 100%;
-        height: 100%;
-        object-fit: contain;
-      }
-    }
+				height: 100%;
+				object-fit: contain;
+			}
+		}
 
-    .jsconf-container {
-      display: flex;
-      height: 100%;
-      justify-content: center;
-      gap: 10%;
-      .feature {
-        .image {
-          width: 100%;
-          height: 100%;
-          object-fit: contain;
-        }
-      }
-    }
-
-    // scrollbar style
-    &::-webkit-scrollbar-track {
-      -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
-      background-color: #f5f5f5;
-      border-radius: 10px;
-    }
-
-    &::-webkit-scrollbar {
-      width: 10px;
-      background-color: #f5f5f5;
-    }
-
-    &::-webkit-scrollbar-thumb {
-      border-radius: 10px;
-      background-color: #fff;
-      background-image: -webkit-gradient(
-        linear,
-        40% 0%,
-        75% 84%,
-        from(#4d9c41),
-        to(#19911d),
-        color-stop(0.6, #54de5d)
-      );
-    }
-  }
+		.row {
+			display: flex;
+			gap: 30px;
+			justify-content: center;
+			.button-arrow {
+				display: inline-block;
+				width: 45px;
+				height: 45px;
+				border: none;
+				border-radius: 50%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+		}
+	}
 }

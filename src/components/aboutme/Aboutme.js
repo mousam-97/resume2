@@ -6,7 +6,7 @@ import ArrowRightIcon from "@material-ui/icons/ArrowRight";
 function Aboutme() {
   return (
 		<div className="aboutme" id="aboutme">
-			<h1>About Me</h1>
+			<h3>About Me</h3>
 			<div className="slider">
 				<div className="container">
 					{/* <Fade left> */}

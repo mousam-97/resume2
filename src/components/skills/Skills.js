@@ -4,7 +4,7 @@ import "./skills.scss";
 export default function Skills() {
 	return (
 		<div className="skills" id="skills">
-			<h1>Tools and Technologies</h1>
+			<h3>Tools and Technologies</h3>
 			<div className="container">
 				<code>
 					<img

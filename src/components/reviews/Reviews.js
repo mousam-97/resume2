@@ -66,7 +66,7 @@ export default function Reviews() {
 	};
 	return (
 		<div className="reviews" id="reviews">
-			<h1>What others has to say</h1>
+			<h3>What others has to say</h3>
 			<div className="container">
 				<Slider {...settings} ref={$ref}>
 					<div className="review-image">

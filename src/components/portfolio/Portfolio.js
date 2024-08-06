@@ -5,7 +5,7 @@ import "./portfolio.scss";
 function Portfolio() {
 	return (
 		<div className="portfolio" id="portfolio">
-			<h1>Projects</h1>
+			<h3>Projects</h3>
 			<div className="container">
 				{/* <Fade left> */}
 				<a

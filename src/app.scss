@@ -5,6 +5,10 @@
   height: 100vh;
   font-family: 'Inter', sans-serif;
 
+  h3 {
+    overflow-y: hidden;
+  }
+
   .sections {
     width: 100%;
     height: calc(100vh - 70px);
