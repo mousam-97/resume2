@@ -1,7 +1,6 @@
 import React from "react";
 import "./aboutme.scss";
 // import Fade from "react-reveal/Fade";
-import ArrowRightIcon from "@material-ui/icons/ArrowRight";
 
 function Aboutme() {
   return (
