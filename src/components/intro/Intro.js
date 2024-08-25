@@ -35,7 +35,9 @@ function Intro() {
 					<h3>
 						<span ref={textRef}></span>
 					</h3>
-					<CompaniesServed />
+					<div className="companies-served">
+						<CompaniesServed />
+					</div>
 				</div>
 				<a href="#aboutme">
 					<ExpandMoreIcon className="logo" />
