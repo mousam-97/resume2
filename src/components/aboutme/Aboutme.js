@@ -15,11 +15,9 @@ function Aboutme() {
 						</div>
 						<div className="right">
 							<p>
-								Software Engineer (Frontend) with over 3.5 years of experience,
-								including collaboration with Fortune 500 companies and international
-								remote teams at Deloitte. Demonstrated success in a fast-paced
-								product company working directly with the CTO. A B.Tech graduate
-								from NIT Silchar, excelling at the intersection of art and code.
+								Frontend Software Engineer with 3.8 years of experience, delivering
+								solutions for global brands and Fortune 500 companies. B.Tech
+								graduate from NIT Silchar, with experience at Deloitte and Premagic.
 							</p>
 							{/* <ul>
 								<li>
@@ -32,7 +30,14 @@ function Aboutme() {
 									Data structures and Algorithms
 								</li>
 							</ul> */}
-							<a href="/assets/mousam_cv.pdf" download="Mousam mousam_cv.pdf">
+							{/* <a href="/assets/mousam_cv.pdf" download="Mousam mousam_cv.pdf">
+								<button className="button">GET RESUME</button>
+							</a> */}
+							<a
+								href="https://drive.google.com/file/d/1DW0DFSjmp6boeNMuUeQP4f5i7j7Aba75/view"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
 								<button className="button">GET RESUME</button>
 							</a>
 						</div>
